@@ -1,0 +1,25 @@
+#left-eye {
+  animation: look 4s linear alternate infinite;
+}
+
+#right-eye {
+  animation: look 4s linear alternate infinite;
+}
+
+@keyframes look {
+
+  50% {
+    transform: translateX(-15px);
+  }
+
+}
+
+#bear:hover #left-ear {
+  transform: translateY(-10px);
+  transition: all 1s linear;
+}
+
+#bear:hover #right-ear {
+  transform: translateY(-10px);
+  transition: all 1s linear;
+}
